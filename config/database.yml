@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: portalbknn_development
+
+test:
+  <<: *default
+  database: portalbknn_test
+
+production:
+  <<: *default
+  database: portalbknn_production
+  username: portalbknn
+  password: <%= ENV['TODO_DATABASE_PASSWORD'] %>
