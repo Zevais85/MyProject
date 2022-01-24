@@ -1,4 +1,3 @@
-
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -17,9 +16,8 @@ gem 'devise'
 gem 'devise-i18n'
 gem 'pundit'
 gem 'therubyracer', '~> 0.12.3'
-gem 'less-rails'
-gem 'twitter-bootstrap-rails'
-gem 'libv8', '~> 8.4', '>= 8.4.255.0'
+#gem 'less-rails'
+#gem 'twitter-bootstrap-rails'
 
 group :development, :test do
   gem 'ffaker'
