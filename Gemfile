@@ -16,9 +16,11 @@ gem 'kaminari'
 gem 'devise'
 gem 'devise-i18n'
 gem 'pundit'
-gem 'therubyracer'
+gem 'therubyracer', '~> 0.12.3'
 gem 'less-rails'
 gem 'twitter-bootstrap-rails'
+gem 'libv8', '~> 8.4', '>= 8.4.255.0'
+gem 'adminpanel', '~> 3.6', '>= 3.6.1'
 
 group :development, :test do
   gem 'ffaker'
