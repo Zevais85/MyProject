@@ -15,9 +15,6 @@ gem 'kaminari'
 gem 'devise'
 gem 'devise-i18n'
 gem 'pundit'
-#gem 'therubyracer', '~> 0.12.3'
-#gem 'less-rails'
-#gem 'twitter-bootstrap-rails'
 gem 'activeadmin'
 
 group :development, :test do
